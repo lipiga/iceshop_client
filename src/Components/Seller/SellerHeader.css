@@ -1,0 +1,31 @@
+.seller-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.seller-nav ul li{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: #c30281;
+    cursor: pointer;
+}
+.seller-nav ul li.active{
+    border-bottom:2px solid #c30281;
+}
+.seller-nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.seller-nav h1{
+    color: #c30281;
+    font-size: 30px;
+    font-weight: 500;
+}
+.seller-nav img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
